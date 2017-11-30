@@ -1,0 +1,29 @@
+Addon.xml
+Line 2: <addon id="plugin.program.cobrateam green-1.0" name="plugin.program.cobrateam green-1.0" version="1.0.1" provider-name="cobra team">
+Line 10: <summary lang="en">build</summary>
+Line 11: <description lang="en">build </description>
+Line 12: <disclaimer lang="en">english</disclaimer>
+
+Default.py
+Line 15: base='plugin.program.cobrateam green-1.0'
+Line 16: ADDON=xbmcaddon.Addon(id='plugin.program.cobrateam green-1.0')
+Line 19: VERSION = "1.0.1"
+Line 22: PATH = "C:\cobra plugin.program.cobrateam green1.0"
+Line 26: EXCLUDES     = ['plugin.program.cobrateam green-1.0']
+Line 31: link = OPEN_URL('https://github.com/cobrateam1/potential-cobra-build').replace('\n','').replace('\r','')
+Line 52: dp.create("plugin.program.cobrateam green-1.0"
+Line 61: dp.update(0,"", "Extracting cobra team green, Please Wait")
+line 253:choice2 = xbmcgui.Dialog().yesno("Are you sure?", 'Are you sure you want to wipe this install?', '', 'All addons EXCLUDING YOUR NAME WIZARD will be completely wiped!' 
+
+Downloader.py
+Line 24: 			dp.create("cobra team green"," Starting Download",' ', ' ')
+Line 33: 			dp.create("cobra team green","Starting Download",' ', ' ')
+
+
+Wizard.txt
+Line 1: name="cobrateam green"	
+Line 2: url="https://github.com/cobrateam1/potential-cobra-build"
+Line 3: img="https://github.com/cobrateam1/potential-cobra-build"
+Line 4: fanart="https://github.com/cobrateam1/potential-cobra-build"
+Line 5: description="cobra build full green"
+Line 6: version="1.0"
